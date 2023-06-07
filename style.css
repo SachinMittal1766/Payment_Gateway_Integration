@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+#header {
+  background-color: #0B2447;
+}
+
+#headerText {
+  color: white;
+  font-family: 'Monomaniac One', sans-serif;
+  margin-left: 2%;
+}
+
+#headerLogo {
+  border-radius: 50%;
+}
+
+#homeContainer,
+#AboutContainer {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  background-color: #19376D;
+}
+
+#imageHomeContainer {
+  max-width: 60%;
+  max-height: 60%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  border-radius: 10%;
+}
+
+#textHomeContainer,
+#textAboutContainer {
+  color: white;
+}
+
+#textHomeContainer h1,
+#textAboutContainer h1,
+#ContactLink h1 {
+  font-family: 'Playfair Display', serif;
+  color: white;
+}
+
+#textHomeContainer p,
+#textAboutContainer p {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 15%;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+}
+
+#imageAboutContainer {
+  max-width: 100%;
+  max-height: 70%;
+  margin-bottom: 10%;
+}
+
+#textAboutContainer {
+  margin-left: 10%;
+}
+
+#impactContainer {
+  background-color: #19376D;
+}
+
+#impactHeader {
+  text-align: center;
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#impactData {
+  padding-bottom: 10%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #0B2447;
+  color: white;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card p {
+  font-size: 18px;
+}
+
+#ContactLink {
+  text-align: center;
+  background-color: #19376D;
+}
+
+#ContactLink h1 {
+  margin-bottom: 2%;
+}
+
+#ContactLink a {
+  margin: 2%;
+}
+
+#ContactLink p {
+  color: white;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
